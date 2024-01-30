@@ -26,7 +26,7 @@ const sayHelloIfItIsSunny = (name, weather) => {
    * e.g. with name="John" and weather="rainy", return "I don't like rainy weather".
    * */
   if (weather === "sunny") {
-    return `Hello, ${name}. What a ${weather} day.`;
+    return `Hello, ${name}. What a ${weather} day`;
   } else {
     return `I don't like ${weather} weather`;
   }
